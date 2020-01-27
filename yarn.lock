@@ -2289,6 +2289,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pablosz/babel-plugin-graphql-tag@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "@pablosz/babel-plugin-graphql-tag@npm:2.5.1"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.0.0
+    "@babel/parser": ^7.3.2
+    babel-literal-to-ast: ^2.1.0
+    debug: ^4.1.1
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    graphql-tag: ^2.10.1
+  checksum: e4d62c0fbc675739bba6602eba3255fe20f95ee5239ca2ddf5b35b2fbea476224f608515690c216d2b3fc4ce3427ae2626df4b0a31604b275885f83369c5ca78
+  languageName: node
+  linkType: hard
+
 "@pm2/agent-node@npm:^1.1.10":
   version: 1.1.10
   resolution: "@pm2/agent-node@npm:1.1.10"
@@ -2485,6 +2500,18 @@ __metadata:
     react: ^16.4.0
     react-dom: ^16.4.0
   checksum: a87e71e8999e73b2475240a54546daa242db510c68e4d14e1d867bba512c60eaace5cf9e3f118d388acd1ee8d43d0062e3acad1850d2de82cdb0581c2f4b6342
+  languageName: node
+  linkType: hard
+
+"@reach/component-component@npm:^0.7.4":
+  version: 0.7.4
+  resolution: "@reach/component-component@npm:0.7.4"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^16.4.0
+    react-dom: ^16.4.0
+  checksum: 06bd0fafb790b2767e23dae16dbddb63b35ee17598d5bf6ba0faf44f677a6dfa2c83287871a50eba0956891b1097f3b8666596575a38be2767b757efa8b7c600
   languageName: node
   linkType: hard
 
@@ -16871,6 +16898,8 @@ resolve@1.1.7:
     "@emotion/core": ^10.0.27
     "@emotion/styled": ^10.0.27
     "@next/bundle-analyzer": ^9.2.1
+    "@pablosz/babel-plugin-graphql-tag": ^2.5.1
+    "@reach/component-component": ^0.7.4
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.4.0
     "@types/classnames": ^2.2.9

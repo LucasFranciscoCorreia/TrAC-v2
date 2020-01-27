@@ -174,6 +174,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/core", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:10.0.27"],
             ["@emotion/styled", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:10.0.27"],
             ["@next/bundle-analyzer", "npm:9.2.1"],
+            ["@pablosz/babel-plugin-graphql-tag", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:2.5.1"],
+            ["@reach/component-component", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:0.7.4"],
             ["@testing-library/jest-dom", "npm:4.2.4"],
             ["@testing-library/react", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:9.4.0"],
             ["@types/classnames", "npm:2.2.9"],
@@ -2946,6 +2948,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"
         }]
       ]],
+      ["@pablosz/babel-plugin-graphql-tag", [
+        ["virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:2.5.1", {
+          "packageLocation": "./.yarn/$$virtual/@pablosz-babel-plugin-graphql-tag-virtual-274bfa81be/0/cache/@pablosz-babel-plugin-graphql-tag-npm-2.5.1-acb08b04eb-1.zip/node_modules/@pablosz/babel-plugin-graphql-tag/",
+          "packageDependencies": [
+            ["@pablosz/babel-plugin-graphql-tag", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:2.5.1"],
+            ["@babel/core", "npm:7.8.3"],
+            ["@babel/helper-plugin-utils", "npm:7.0.0"],
+            ["@babel/parser", "npm:7.7.4"],
+            ["babel-literal-to-ast", "virtual:274bfa81be3e24f75b96d6a6d1e9764b0e18ebeff54c27685dac31a043e2e5a4ed32bb1c987e08ffa9900ce4ed269f4945f9d47c5e03fae42ae5751aaa9120e1#npm:2.1.0"],
+            ["debug", "npm:4.1.1"],
+            ["graphql-tag", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:2.10.1"]
+          ],
+          "packagePeers": [
+            "core",
+            "graphql-tag"
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
       ["@pm2/agent", [
         ["npm:0.5.26", {
           "packageLocation": "./.yarn/cache/@pm2-agent-npm-0.5.26-593826e788-1.zip/node_modules/@pm2/agent/",
@@ -3171,6 +3192,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@reach/component-component", [
+        ["virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:0.7.4", {
+          "packageLocation": "./.yarn/$$virtual/@reach-component-component-virtual-7e6e7825a9/0/cache/@reach-component-component-npm-0.7.4-0aac0853ad-1.zip/node_modules/@reach/component-component/",
+          "packageDependencies": [
+            ["@reach/component-component", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:0.7.4"],
+            ["prop-types", "npm:15.7.2"],
+            ["react", "npm:16.12.0"],
+            ["react-dom", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:16.12.0"]
+          ],
+          "packagePeers": [
+            "react",
+            "react-dom"
+          ],
+          "linkType": "HARD"
+        }],
         ["virtual:cbd48d882d041c7a7ed21e23ce6e17418d78039d219b60464bd3171ce9d9924a5a3b14ecd9ff11bd55f82334ac657cb9cd9ca6c84ff6609d1cb140a2939254e5#npm:0.1.3", {
           "packageLocation": "./.yarn/$$virtual/@reach-component-component-virtual-31514103fa/0/cache/@reach-component-component-npm-0.1.3-94c20ffc6f-1.zip/node_modules/@reach/component-component/",
           "packageDependencies": [
@@ -5915,10 +5950,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["babel-literal-to-ast", [
-        ["virtual:d3908e9d0dbbb44e59162aa261287853fa36dcd149512e010d9824b4593cf71dc4ec854e5deda814d9684e9efb57fab39212dbd6cada3655091ae1ee82d6b553#npm:2.1.0", {
-          "packageLocation": "./.yarn/$$virtual/babel-literal-to-ast-virtual-b7b0a9c975/0/cache/babel-literal-to-ast-npm-2.1.0-89f09750a3-1.zip/node_modules/babel-literal-to-ast/",
+        ["virtual:274bfa81be3e24f75b96d6a6d1e9764b0e18ebeff54c27685dac31a043e2e5a4ed32bb1c987e08ffa9900ce4ed269f4945f9d47c5e03fae42ae5751aaa9120e1#npm:2.1.0", {
+          "packageLocation": "./.yarn/$$virtual/babel-literal-to-ast-virtual-94da683ace/0/cache/babel-literal-to-ast-npm-2.1.0-89f09750a3-1.zip/node_modules/babel-literal-to-ast/",
           "packageDependencies": [
-            ["babel-literal-to-ast", "virtual:d3908e9d0dbbb44e59162aa261287853fa36dcd149512e010d9824b4593cf71dc4ec854e5deda814d9684e9efb57fab39212dbd6cada3655091ae1ee82d6b553#npm:2.1.0"],
+            ["babel-literal-to-ast", "virtual:274bfa81be3e24f75b96d6a6d1e9764b0e18ebeff54c27685dac31a043e2e5a4ed32bb1c987e08ffa9900ce4ed269f4945f9d47c5e03fae42ae5751aaa9120e1#npm:2.1.0"],
             ["@babel/core", "npm:7.8.3"],
             ["@babel/parser", "npm:7.7.4"],
             ["@babel/traverse", "npm:7.7.4"],
@@ -6002,7 +6037,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-graphql-tag", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:2.5.0"],
             ["@babel/core", "npm:7.8.3"],
             ["@babel/parser", "npm:7.7.4"],
-            ["babel-literal-to-ast", "virtual:d3908e9d0dbbb44e59162aa261287853fa36dcd149512e010d9824b4593cf71dc4ec854e5deda814d9684e9efb57fab39212dbd6cada3655091ae1ee82d6b553#npm:2.1.0"],
+            ["babel-literal-to-ast", "virtual:274bfa81be3e24f75b96d6a6d1e9764b0e18ebeff54c27685dac31a043e2e5a4ed32bb1c987e08ffa9900ce4ed269f4945f9d47c5e03fae42ae5751aaa9120e1#npm:2.1.0"],
             ["debug", "npm:4.1.1"],
             ["graphql-tag", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:2.10.1"]
           ],
@@ -19265,6 +19300,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/core", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:10.0.27"],
             ["@emotion/styled", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:10.0.27"],
             ["@next/bundle-analyzer", "npm:9.2.1"],
+            ["@pablosz/babel-plugin-graphql-tag", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:2.5.1"],
+            ["@reach/component-component", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:0.7.4"],
             ["@testing-library/jest-dom", "npm:4.2.4"],
             ["@testing-library/react", "virtual:c18b4f024c7ecbdb98a3630eac603cf0e6d94c4582ad9f9e2250387151455e632a6181511c25f5ec799e5a2994b4e7df41046a09544d3b70e2089ba3e573db0d#npm:9.4.0"],
             ["@types/classnames", "npm:2.2.9"],

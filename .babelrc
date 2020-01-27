@@ -2,6 +2,6 @@
   "presets": ["next/babel"],
   "plugins": [
     ["lodash"],
-    ["babel-plugin-graphql-tag", { "importName": "graphql-tag-ts" }]
+    ["@pablosz/babel-plugin-graphql-tag", { "importName": "graphql-tag-ts" }]
   ]
 }

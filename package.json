@@ -30,6 +30,8 @@
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "@next/bundle-analyzer": "^9.2.1",
+    "@pablosz/babel-plugin-graphql-tag": "^2.5.1",
+    "@reach/component-component": "^0.7.4",
     "@vx/axis": "^0.0.192",
     "@yarnpkg/pnpify": "^2.0.0-rc.16",
     "apollo-cache-inmemory": "^1.6.5",

@@ -68,10 +68,11 @@ const Login: FC = () => {
 
   return (
     <Grid centered padded>
+      
       <Grid.Row>
         <Image
-          alt="LALA"
-          src="/lalalink.png"
+          alt="UFRPE"
+          src="/rural_logo.png"
           height="20vh"
           objectFit="contain"
           objectPosition="center"

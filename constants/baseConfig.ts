@@ -116,5 +116,5 @@ export const baseConfig = {
   COURSE_BOX_BORDER_WIDTH_ACTIVE: "2px",
   COURSE_BOX_BORDER_WIDTH_INACTIVE: "1px",
   CANCELED_HISTORIC_TOOLTIP_LABEL: "Anulada",
-  NO_HISTORIC_DATA: "No hay datos a mostrar",
+  NO_HISTORIC_DATA: "Não há dados para mostrar",
 };
